@@ -1,0 +1,79 @@
+.send-mail {
+    position: sticky;
+    bottom: 5px;
+    left: 790px;
+    background-color: #404040;
+    width: 40%;
+    height: 47%;
+    max-width: 600px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(245, 245, 245);
+    box-shadow: 0 5px 7px 0 rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.send-mail-header {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:rgb(212, 211, 211);
+}
+
+.send-mail-header > h3 {
+    color:rgb(245, 245, 245);
+    font-size: 16px;
+}
+
+.send-mail-close {
+    cursor: pointer;
+}
+
+.send-mail > form {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.send-mail > form > input {
+    height: 20px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid rgb(245, 245, 245);
+    outline: none;
+    font-size: 14px;
+}
+
+.send-mail-message {
+    flex: 1;
+    border: none;
+    resize: none;
+    padding: 10px;
+    font-size: 15px;
+    line-height: 1.5;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.send-mail-message:focus-visible {
+    border: none;
+    outline: none;
+}
+
+.send-mail-error {
+    background-color: #fff;
+    color: rgb(243, 2, 2);
+    text-align: right;
+    padding: 2px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.send-mail-button {
+    background-color: #3079ed !important;
+    text-transform: capitalize !important;
+    margin: 10px 20px !important;
+
+}
